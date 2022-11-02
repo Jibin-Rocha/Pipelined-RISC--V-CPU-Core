@@ -75,6 +75,6 @@ Mentioned below are steps to use RISC-V toolchain,
 
 **Outputs for the above mentioned commands**
 *sum from 1 to 5
-1[](
+![](
      
      
