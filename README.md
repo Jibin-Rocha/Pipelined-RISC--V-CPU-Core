@@ -74,7 +74,22 @@ Mentioned below are steps to use RISC-V toolchain,
      
 
 **Outputs for the above mentioned commands**
+
 *sum from 1 to 5
-![](
+![](https://github.com/Jibin-Rocha/Pipelined-RISC--V-CPU-Core/blob/main/Images/sum1ton.c.png)
      
-     
+* Below image shows the disassembled file `sum1ton.o` with `main` function highlighted.
+![](https://github.com/Jibin-Rocha/Pipelined-RISC--V-CPU-Core/blob/main/Images/sum1ton.o.png)
+
+* Below image shows the disassembled file `sum1ton.o` using `Ofast` option
+![](https://github.com/Jibin-Rocha/Pipelined-RISC--V-CPU-Core/blob/main/Images/sum1ton_fast.o.png)
+
+* To view the contents inside registers we can use command as `reg <core> <register name>`
+
+*Below image shows the debugging of the assembly language code using the `spike -d` option.it can be be seen that the contents of the registers before and after the execution of a particular line of code.
+
+![](https://github.com/Jibin-Rocha/Pipelined-RISC--V-CPU-Core/blob/main/Images/sum1ton_spike_debug_ofast.o.png)
+
+*Below image shows the code to check highest unsigned number
+![](https://github.com/Jibin-Rocha/Pipelined-RISC--V-CPU-Core/blob/main/Images/unsigned.c.png)
+![](https://github.com/Jibin-Rocha/Pipelined-RISC--V-CPU-Core/blob/main/Images/out_unsigned.c.png)
