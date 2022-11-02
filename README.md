@@ -72,6 +72,9 @@ Mentioned below are steps to use RISC-V toolchain,
     `spike -d pk <object Filename>` with degub command as `until pc 0 <pc of your choice>`
      By using this until command we can perfoem a line by line execution of the assembly code.
      
-     Outputs for the above mentioned commands
+
+**Outputs for the above mentioned commands**
+*sum from 1 to 5
+1[](
      
      
